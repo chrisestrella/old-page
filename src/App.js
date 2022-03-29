@@ -10,6 +10,7 @@ function App() {
     <>
       <Navbar />
       <hr></hr>
+      <h1>HELLO</h1>
       <Header />
       <Projects />
     </>
