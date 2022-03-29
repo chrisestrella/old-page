@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <hr></hr>
+      <hr />
       <Header />
       <Projects />
     </>

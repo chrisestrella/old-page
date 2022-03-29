@@ -6,6 +6,7 @@ export default function Projects(){
   return(
     <>
       <h1 className='projects--header'>My Projects</h1>
+      <hr />
       <div className='projects--container'></div>
     </>
   )

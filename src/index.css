@@ -40,7 +40,7 @@ nav > img {
 
 hr {
   width: 80%;
-  border: 1px solid #EFDFCD;
+  border: 1px solid #FD6883;
   margin: 0;;
 }
 
@@ -70,6 +70,7 @@ header > img{
   color: black;
   font-size: 40px;
   margin: 0 0 10px 0;
+  width: fit-content;
 }
 
 .school{
@@ -81,4 +82,21 @@ header > img{
 .about{
   font-size: 16px;
   color: black;
+}
+
+.typed {
+  overflow: hidden;
+  border-right: 4px solid #FD6883;
+  white-space: nowrap;
+  animation: type 3.5s steps(40,end), blink 1s infinite;
+}
+
+@keyframes type {
+  from { width: 0 }
+  to { width: 550px }
+}
+
+@keyframes blink {
+  from { border-color: transparent; }
+  to { border-color: #FD6883; }
 }

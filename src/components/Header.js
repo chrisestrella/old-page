@@ -7,8 +7,8 @@ export default function Header(){
     <header>
       <img src={me} alt="" />
       <div className="header--container">
-        <h1 className='intro'>Hey, I'm Chris, a Software Engineer!</h1>
-        <h3 className='school'>CompSci Major @ University of Washington</h3>
+        <h1 className='intro typed'>Hey, I'm Chris, a Software Engineer!</h1>
+        <h3 className='school'>CompSci Major @ The University of Washington</h3>
         <p className='about'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
           molestiae deleniti minima impedit voluptatum commodi, dolorem temporibus
           vero harum dolor aperiam, nemo odit! Quas alias rerum ratione consequuntur
