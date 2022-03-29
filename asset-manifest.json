@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/chrisestrella.github.io/static/css/main.073c9b0a.css",
+    "main.js": "/chrisestrella.github.io/static/js/main.5b013716.js",
+    "static/js/787.5848f123.chunk.js": "/chrisestrella.github.io/static/js/787.5848f123.chunk.js",
+    "static/media/logo.svg": "/chrisestrella.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/chrisestrella.github.io/index.html",
+    "main.073c9b0a.css.map": "/chrisestrella.github.io/static/css/main.073c9b0a.css.map",
+    "main.5b013716.js.map": "/chrisestrella.github.io/static/js/main.5b013716.js.map",
+    "787.5848f123.chunk.js.map": "/chrisestrella.github.io/static/js/787.5848f123.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.5b013716.js"
+  ]
+}
