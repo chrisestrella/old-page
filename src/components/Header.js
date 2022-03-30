@@ -7,15 +7,17 @@ export default function Header(){
 
   useEffect(() => {
     // gsap.set(head.current,{y:0, yPercent:-100})
-    gsap.timeline()
+    const tl = gsap.timeline()
+    tl
     .from(head.current,{
       rotationX: -90,
-      transformOrigin: "50% 0%",
-      duration:3.2,
+      y: -100,
+      transformOrigin: "0% 0%",
+      duration:1,
       scale: .8,
       // ease: Power3.easeOut,
     })
-    .to('.school',{y: -20, duration:0})
+    .to('.school',{y: -20, duration:2.2})
     .to('.school', {
       opacity: 1,
       y: 0,
@@ -23,11 +25,13 @@ export default function Header(){
       transformOrigin: "0% 0%",
       duration: 1,
       ease: Power3.easeOut
-    }).to('.about',{y:-40})
-    .to('.about',{
+    })
+
+    gsap.timeline().to(".about",{y: -20,duration:3.2})
+    .to(".about", {
       opacity: 1,
-      y:0,
-      duration: 1.5,
+      y: 0,
+      duration: 1,
       ease: Power3.easeOut
     })
 
@@ -35,9 +39,9 @@ export default function Header(){
 
   return(
     <header>
-      <div className="header-card" ref={head}>
+      <div className="header-card">
         <img src={me} alt="me" />
-        <div className="header--container">
+        <div className="header--container" ref={head}>
           <h1 className='intro typed'>Hey, I'm Chris, a Software Engineer!</h1>
           <h3 className='school' >Student @ The University of Washington | Major: CS</h3>
           <p className='about'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,

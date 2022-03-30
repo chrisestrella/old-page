@@ -11,8 +11,6 @@ function App() {
     <>
       <Navbar />
       <Header />
-      <Header />
-      <Header />
       <Projects />
     </>
   );
