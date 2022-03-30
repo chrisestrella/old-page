@@ -3,11 +3,16 @@ import logo from '../img/logo.png'
 
 export default function Navbar(){
   return (
-    <nav>
-      <h2>Home</h2>
-      <h2>About</h2>
-      <h2>Contact</h2>
-      <img src={logo} alt="Logo" />
-    </nav>
+    <>
+      <nav>
+        <div className="Nav--content">
+          <h2>Home</h2>
+          <h2>About</h2>
+          <h2>Contact</h2>
+          <img src={logo} alt="Logo" />
+        </div>
+        <hr />
+      </nav>
+    </>
   )
 }

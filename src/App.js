@@ -4,12 +4,14 @@ import Header from './components/Header'
 import Projects from './components/Projects'
 import './App.css';
 
+
 function App() {
 
   return (
     <>
       <Navbar />
-      <hr />
+      <Header />
+      <Header />
       <Header />
       <Projects />
     </>
