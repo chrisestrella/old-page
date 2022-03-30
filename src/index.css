@@ -90,9 +90,7 @@ header  img{
 }
 
 .header--container {
-  width: 60vw;
-  min-width: 450px;
-  max-width: 600px;
+  width: 44vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -100,20 +98,20 @@ header  img{
 
 .intro {
   color: black;
-  font-size: 2rem;
+  font-size: 3vw;
   margin: 0 0 10px 0;
   width: fit-content;
 }
 
 .school{
   color: #FD6883;
-  font-size: 20px;
+  font-size: 1.5vw;
   margin: 0 0 30px 0;
   opacity: 0;
 }
 
 .about{
-  font-size: 16px;
+  font-size: 1.2vw;
   color: black;
   opacity:  0;
 }
@@ -127,7 +125,7 @@ header  img{
 
 @keyframes type {
   from { width: 0 }
-  to { width: 100% }
+  to { width: 44vw }
 }
 
 @keyframes blink {
