@@ -22,7 +22,7 @@
 }
 
 body{
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   background: #F3F3F3;
   width: 100%;
 }
@@ -41,21 +41,21 @@ nav{
   display: flex;
   color: black;
   height: minmax(10vh, 70px);
-  width: 70%;
+  width: 100%;
   align-items: center;
 }
 
-.Nav--content > h2{
+/* .Nav--content > h2{
   width: fit-content;
   margin: 15px;
   font-size: 22px;
-}
+} */
 
 .Nav--content > img {
   width: 42px;
   height:  42px;
-  margin-left: auto;
-  margin-right: 3VW;
+  margin: 5px;
+  margin-right: auto;
 }
 
 hr {
@@ -86,6 +86,7 @@ header  img{
   height: 30vw;
   margin-right: 35px;
   border-radius: 20vw;
+  z-index: 2;
   /* box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.25); */
 }
 
@@ -98,6 +99,7 @@ header  img{
 
 .intro {
   color: black;
+  /* font-family: 'Roboto Mono', monospace; */
   font-size: 3vw;
   margin: 0 0 10px 0;
   width: fit-content;
@@ -120,15 +122,23 @@ header  img{
   overflow: hidden;
   border-right: 4px solid #FD6883;
   white-space: nowrap;
-  animation: type 3s steps(40,end), blink 1s infinite;
+  animation: type 3s steps(15,end), blink 1s infinite;
+  /* animation-delay: 2s; */
 }
 
 @keyframes type {
-  from { width: 0 }
-  to { width: 44vw }
+  0% { width: 0;}
+  33% { width: 0;}
+  100% { width: 27.5vw; }
 }
 
 @keyframes blink {
   from { border-color: transparent; }
   to { border-color: #FD6883; }
+}
+
+@media screen and (max-width:1100px){
+  .Nav--content h2 {
+    font-size: 2vw;
+  }
 }
