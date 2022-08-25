@@ -2,11 +2,11 @@ import React, {useEffect, useRef} from 'react'
 import { Link, Outlet } from 'react-router-dom';
 import gsap, {Power3} from 'gsap'
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-gsap.registerPlugin(ScrollTrigger);
 
 import AlgoSort from './projects/AlgoSort'
 import StretchIt from './projects/StretchIt';
 
+gsap.registerPlugin(ScrollTrigger);
 export default function Projects(){
 
   const title = useRef(null);
