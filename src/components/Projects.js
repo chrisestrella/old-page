@@ -18,7 +18,7 @@ export default function Projects(){
       <h1 className='projects-header'>My Projects</h1>
       <hr />
       <div className='projects-container'>
-        <StretchIt ref={} />
+        <StretchIt />
         <AlgoSort />
       </div>
     </div>
