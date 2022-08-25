@@ -10,7 +10,7 @@ import StretchIt from './projects/StretchIt';
 export default function Projects(){
 
   const title = useRef(null);
-  const 
+  // const
 
 
   return(
