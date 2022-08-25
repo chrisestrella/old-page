@@ -1,0 +1,19 @@
+@supports (-webkit-text-stroke: 1px black) {
+  .ErrorPage h1 {
+    font-size: 15em;
+    align-self: center;
+
+    color: #F38D70;
+    -webkit-text-stroke: 1px #FD6883;;
+  }
+}
+
+.ErrorPage {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
